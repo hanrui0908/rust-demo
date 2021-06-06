@@ -720,6 +720,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "hello"
+version = "0.1.0"
+dependencies = [
+ "actix-web",
+ "rust-crypto",
+]
+
+[[package]]
 name = "hermit-abi"
 version = "0.1.18"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1243,14 +1251,6 @@ dependencies = [
  "rand 0.3.23",
  "rustc-serialize",
  "time 0.1.44",
-]
-
-[[package]]
-name = "rust-demo"
-version = "0.1.0"
-dependencies = [
- "actix-web",
- "rust-crypto",
 ]
 
 [[package]]

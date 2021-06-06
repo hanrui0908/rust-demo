@@ -1,8 +1,12 @@
 [package]
-name = "rust-demo"
+name = "hello"
 version = "0.1.0"
-authors = ["rui han <hanrui9999@gmail.com>"]
+authors = ["hanrui0908 <hanrui0908@live.com>"]
+description = "learning demo"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/hanrui0908/rust-demo"
 edition = "2018"
+wasm-opt = false
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
