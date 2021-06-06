@@ -674,6 +674,8 @@
 use crypto::digest::Digest;
 use crypto::sha3::Sha3;
 use rust_demo::com::lssoft::common::People;
+use hello::com::lssoft::common::People;
+
 
 fn main() {
     for _ in 0..10 {

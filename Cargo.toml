@@ -1,10 +1,10 @@
 [package]
-name = "hello"
+name = "rust-demo"
 version = "0.1.0"
 authors = ["hanrui0908 <hanrui0908@live.com>"]
 description = "learning demo"
 license = "MIT/Apache-2.0"
-repository = "https://github.com/hanrui0908/rust-democlea"
+repository = "https://github.com/hanrui0908/rust-demo"
 edition = "2018"
 wasm-opt = false
 
