@@ -5,7 +5,7 @@ pub mod com {
         // * 斜体
         // ～～
         // N个# 加空格表示 N级标题
-        /// -公共mod commmon
+        //! 公共mod commmon
         pub mod common {
             use std::fmt::{Debug};
 
@@ -17,11 +17,12 @@ pub mod com {
             }
 
             impl <'a> People<'a>{
-               ///  -modify_name函数
-               ///   - 功能介绍
-               ///     - 根据参数 attr:str 改变传入的stuct的name属性
-               ///   - 参数
-               ///     - attr: &str
+
+               /// -modify_name函数
+               ///  - 功能介绍
+               ///    - 根据参数 attr:str 改变传入的stuct的name属性
+               ///  - 参数
+               ///    - attr: &str
                 pub fn modify_name(&mut self, attr: &'a mut String) {
                     self.name = attr;
                 }
